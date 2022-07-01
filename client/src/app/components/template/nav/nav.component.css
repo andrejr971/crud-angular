@@ -1,0 +1,24 @@
+.container {
+}
+
+.sidenav {
+  background: #3f51b5;
+  width: 200px;
+}
+
+.sidenav a {
+  color: #fff;
+}
+
+.sidenav a + a {
+  margin-top: 8px;
+}
+
+.sidenav i {
+  padding-right: 8px;
+}
+
+.content {
+  padding: 16px;
+  background: #fff;
+}
