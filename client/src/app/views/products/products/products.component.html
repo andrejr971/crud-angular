@@ -1,3 +1,18 @@
-<button mat-raised-button (click)="navigateToProductCreate('/products/create')">
-  Novo Produto
-</button>
+<mat-card class="mat-elevation-z3">
+  <mat-card-header>
+    <div class="header">
+      <mat-card-title> Produtos </mat-card-title>
+      <button
+        mat-raised-button
+        color="primary"
+        (click)="navigateToProductCreate('/products/create')"
+      >
+        Novo Produto
+      </button>
+    </div>
+  </mat-card-header>
+
+  <mat-card-content class="full">
+    <app-list-products></app-list-products>
+  </mat-card-content>
+</mat-card>

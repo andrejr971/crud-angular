@@ -16,3 +16,19 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+.wrapper {
+  width: 100%;
+  max-width: 720px;
+  padding: 16px;
+}
+
+.msg-success {
+  background: #28a745;
+  color: #fff;
+}
+
+.msg-error {
+  background: #e35e6b;
+  color: #fff;
+}

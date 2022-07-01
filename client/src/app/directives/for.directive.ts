@@ -1,10 +1,12 @@
 import { Directive, Input, OnInit, TemplateRef, ViewContainerRef } from '@angular/core';
+import { IProduct } from '../dtos/product.model';
 
 @Directive({
   selector: '[myFor]'
 })
 export class ForDirective implements OnInit {
   @Input('myForEm') numbers: number[] = [];
+  @Input('myForProducts') products: IProduct[] = [];
 
   constructor(private container: ViewContainerRef, private template: TemplateRef<any>) { 
     
